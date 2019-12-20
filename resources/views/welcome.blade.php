@@ -62,6 +62,7 @@
                 margin-bottom: 30px;
             }
         </style>
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -93,7 +94,12 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+
+                <div id="root"></div>  
             </div>
         </div>
+        <footer>
+            <script src="{{asset('js/app.js')}}"></script>
+        </footer>
     </body>
 </html>
